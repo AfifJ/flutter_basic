@@ -25,31 +25,20 @@ class Home extends StatelessWidget {
         ),
         centerTitle: true,
       ),
-      body: Center(
-          // lesson 9 - button and icons
-          child: IconButton(onPressed: () {}, icon: const Icon(Icons.mail))
 
-          // ElevatedButton.icon(
-          //     onPressed: () {},
-          //     icon: const Icon(Icons.mail),
-          //     label: const Text("test"))
+      // container and padding
+      body: const Padding(
+        padding: EdgeInsets.all(40),
+        child: Text("Hello"),
+      ),
 
-          // TextButton(
-          //   onPressed: () {
-          //     print("test");
-          //   },
-          //   style: TextButton.styleFrom(
-          //     backgroundColor: Colors.red[100],
-          //   ),
-          //   child: const Text("test"),
-          // )
+      // Container(
+      //   padding: const EdgeInsets.fromLTRB(10, 30, 20, 20),
+      //   margin: const EdgeInsets.all(30),
+      //   color: Colors.grey[400],
+      //   child: const Text("test"),
+      // ),
 
-          // Icon(
-          //   Icons.add_circle,
-          //   color: Colors.lightBlue,
-          //   size: 100.0,
-          // ),
-          ),
       floatingActionButton: FloatingActionButton(
         child: const Text(
           "Click",
